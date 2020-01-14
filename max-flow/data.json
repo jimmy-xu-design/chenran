@@ -1,0 +1,61 @@
+{
+  "resource_list": [
+    {
+      "resourceID" : "0001",
+      "allow_task" : ["0001","0006"],
+      "capacity" : 1
+    },
+    {
+      "resourceID" : "0002",
+      "allow_task" : ["0001","0004"],
+      "capacity" : 1
+    },
+    {
+      "resourceID" : "0003",
+      "allow_task" : ["0004","0003"],
+      "capacity" : 1
+    },
+    {
+      "resourceID" : "0004",
+      "allow_task" : ["0005", "0004"],
+      "capacity" : 1
+    },
+    {
+      "resourceID" : "0005",
+      "allow_task" : ["0005", "0002"],
+      "capacity" : 1
+    },
+    {
+      "resourceID" : "0006",
+      "allow_task" : ["0004", "0003"],
+      "capacity" : 1
+    }
+
+  ],
+  "task_list": [
+    {
+      "taskID" : "0001",
+      "capacity" : 1
+    },
+    {
+      "taskID" : "0002",
+      "capacity" : 1
+    },
+    {
+      "taskID" : "0003",
+      "capacity" : 1
+    },
+    {
+      "taskID" : "0004",
+      "capacity" : 1
+    },
+    {
+      "taskID" : "0005",
+      "capacity" : 1
+    },
+    {
+      "taskID" : "0006",
+      "capacity" : 1
+    }
+  ]
+}
